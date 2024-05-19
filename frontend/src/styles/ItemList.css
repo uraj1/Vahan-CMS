@@ -1,0 +1,14 @@
+.item-list {
+    padding: 0;
+    margin: 0;
+}
+
+.item-list li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.item-list li:hover {
+    background-color: #f0f0f0;
+}
