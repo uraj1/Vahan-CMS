@@ -1,0 +1,55 @@
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px); /* Adjust the width based on your requirements */
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .button-container button {
+    margin-right: 10px;
+    background: linear-gradient(45deg, #ff4b1f, #ff9068);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+  }
+  
+  .button-container button:hover {
+    background: linear-gradient(45deg, #b30000, #e57373);
+  }
+  
+  /* Arrange cards in rows */
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    flex: 1;
+  }
+  
+  /* Adjust spacing between cards */
+  li:not(:last-child) {
+    margin-right: 20px;
+  }
+  
